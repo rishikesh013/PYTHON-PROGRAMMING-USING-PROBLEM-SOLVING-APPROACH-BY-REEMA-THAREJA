@@ -12,15 +12,33 @@ string_to_check = "Hello"
 print(len(string_to_check))
 
 given_text = "oxford university press"
-given_list = ["oxford", "university", "press"]
-for i in given_text.upper():
-    print(i, end='')
-print()
-for i in given_text.lower():
-    print(i, end='')
-print()
+given_list = ["OXFORD", "UNIVERSITY", "PRESS"]
+# for i in given_text.upper():
+#     print(i, end='')
+# print()
+# for i in given_text.lower():
+#     print(i, end='')
+# print()
+# for i in given_list:
+#     i.upper()
+#     if i[0].isupper():
+#         i[0].lower()
+#     print(i, end=' ')
+
+print(x.upper() for x in given_list)
+
 for i in given_list:
-    i.upper()
-    if i[0].isupper():
-        i[0].lower()
-    print(i, end=' ')
+    print(i.upper(), end=' ')
+
+
+print("------------------------")
+new_list = [x.lstrip().lower() for x in given_list]
+print(new_list)
+
+
+# print(new_list)
+
+print(given_text.capitalize())
+
+new_list = [s[0].lower() + s[1:] for s in given_list]
+print(new_list)
