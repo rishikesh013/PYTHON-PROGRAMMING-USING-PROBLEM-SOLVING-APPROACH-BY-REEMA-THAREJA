@@ -53,3 +53,11 @@ for i in range(1, no2 + 1):
         print('*', end=' ')
     print()
 
+no3 = 4
+for i in range(no3):
+    # for k in range(no, i, -1):
+    #     print(" ", end='')
+    for j in range(i + 1):
+        print('*', end='')
+
+    print()
