@@ -33,31 +33,31 @@ def primeFactors(n):
 n = 1092
 primeFactors(n)
 
-no = int(input("Enter the number: "))
-
-for i in range(no):
-    for k in range(no, i, -1):
-        print(" ", end='')
-    for j in range(i + 1):
-        print('*', end='')
-
-    print()
-
-# no2 = int(input("Enter the number: "))
-no2 = 4
-for i in range(1, no2 + 1):
-    # print(" ", end='')
-    for k in range(no2, i, -1):
-        print(" ", end='')
-    for j in range(1, i + 1):
-        print('*', end=' ')
-    print()
-
-no3 = 4
-for i in range(no3):
-    # for k in range(no, i, -1):
-    #     print(" ", end='')
-    for j in range(i + 1):
-        print('*', end='')
-
-    print()
+# no = int(input("Enter the number: "))
+#
+# for i in range(no):
+#     for k in range(no, i, -1):
+#         print(" ", end='')
+#     for j in range(i + 1):
+#         print('*', end='')
+#
+#     print()
+#
+# # no2 = int(input("Enter the number: "))
+# no2 = 4
+# for i in range(1, no2 + 1):
+#     # print(" ", end='')
+#     for k in range(no2, i, -1):
+#         print(" ", end='')
+#     for j in range(1, i + 1):
+#         print('*', end=' ')
+#     print()
+#
+# no3 = 4
+# for i in range(no3):
+#     # for k in range(no, i, -1):
+#     #     print(" ", end='')
+#     for j in range(i + 1):
+#         print('*', end='')
+#
+#     print()
