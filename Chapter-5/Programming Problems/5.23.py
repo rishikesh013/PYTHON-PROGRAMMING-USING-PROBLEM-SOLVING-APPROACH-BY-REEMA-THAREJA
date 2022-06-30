@@ -11,3 +11,9 @@ def calculate_sphere(r):
 result = calculate_sphere(9)
 s, v = result
 print(s, v)
+
+# print(u'U+0023')
+
+a = 'Google'
+b = list(dict.fromkeys(a.casefold()))
+print("".join(b).capitalize())
