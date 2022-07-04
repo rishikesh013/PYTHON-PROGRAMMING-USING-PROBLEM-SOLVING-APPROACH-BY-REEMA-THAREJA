@@ -11,4 +11,4 @@ with open('file1.txt', 'rb') as f1:
     with open('file2.txt', 'wb+') as f2:
         a = f1.read()
         f2.write(a)
-        print(a)
+        print(a)# Check the branching
